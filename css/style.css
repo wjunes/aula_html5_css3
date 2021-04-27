@@ -1,39 +1,90 @@
-
 body {
     background: #c9c9c9;
-    margin-left:30px;
-    margin-right: 60px;
+    font: 20px Arial, sans-serif ;
+    padding-top: 70px;
+   
 } 
+.navbar {
+    background-color: #015e49;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: px;
+}
 
 header {
-    margin-top: 60px;
-}
-h1 {
-    color: rgb(0, 119, 255);
-    font-family: fantasy;
+    text-align: center;
+    background: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+.margin{
+    margin: 20px;
+}
+
+.img_pat {
+    margin-bottom: 20px;
+    margin-top: 20;
+    width: 300px;
+    
 }
 
 p {
     font-size: 18px;
     font-weight: bold;
 }
-div#colab {
-    background: #ec8602cc;
+
+h1 {
+    color: rgba(0, 47, 255, 0.842);
+    font-family: fantasy;
+    font-weight: bold;
 }
 
-footer {
-    margin-bottom: 30px;
-    margin-top: 30px;
+h2 {
+    font-family: fantasy ;
+    font-weight: bold;
 }
-.img_pat {
-    margin-bottom: 20px;
-    width: 300px;
+
+.servicios{
+    background: linear-gradient( #99d4ee, #c5d6e4);
+    color: black;
+    margin-top: 20px;
+}
+
+.equipo {
+    background: linear-gradient( #99d4ee, #c5d6e4);
+    color: black;
+}
+
+.clientes {
+    background: linear-gradient( #99d4ee, #c5d6e4);
+    color: black;
+}
+
+.colaboradores {
+    background: linear-gradient( #99d4ee, #c5d6e4);
+    color: black;
+    
+}
+
+
+.contacto {
+    
+    color: black;
+}
+
+.bg-footer {
+    background-color: black;
+    color: white;
+    margin: 20px 10px 10px 20px;
+}
+.div {
+  margin: 20px;  
 }
 
 .logo {
     width: 40px;
 }
+
+

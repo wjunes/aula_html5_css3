@@ -5,24 +5,36 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>DESARROLLO WEB</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
 
     <body>
-        <nav>
-            <p>NUESTRA PAGINA</p>
-            <ul>
-                <li>
-                    <a href="#servicios">SERVICIOS</a></li>
-                <li>
-                    <a href="#clientes">CLIENTES</a></li>
-                <li>
-                    <a href="#colaboradores">COLABORADORES</a></li>
-                <li>
-                    <a href="#equipo">EQUIPO</a></li>
-                <li>
-                    <a href="#contacto">CONTACTO</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <a class="navbar-custom" href="#">
+            <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicios">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#equipo">EQUIPO</a>
+                        </li>                       
+                        <li class="nav-item">
+                            <a class="nav-link"  href="#clientes">CLIENTES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#colaboradores">COLABORADORES</a>
+                        </li>                 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    
         <header>
             <h1>Servicios de desarrollo web</h1>
             <p>
@@ -32,78 +44,116 @@
         </header> 
 
         <section id="servicios">
-            <h2>SERVICIOS</h2>
-            <p>
-            Ofrecemos excelencia en  
-            desarrollo web y aplicaciones
-            </p>
-            <div> 
-                <img src="img/site.jpg" class= "img_pat">
-            </div>
-            <div>
-                <img src="img/app.jpg" class= "img_pat">  
-            </div>
-        </section>
-        <section id="clientes">
-            <h2>CLIENTES</h2>
-            <p>Todos nuestros clientes se demuestran satisfechos con las soluciones que Desarrollamos</p>
-            <div>
-                <img src="img/cliente1.jpg"class= "img_pat"> 
-            </div>
-            <div>
-                <img src="img/cliente2.jpg"class= "img_pat"> 
-            </div>
-        </section>
-        <section id="colaboradores">
-            <h2>COLABORADORES</h2>
-            <p>
-                Nuestros colaboradores, nos ayudan a desarrollar 
-                las mejores soluciones para cada cliente
-            </p>
-            <div id="colab">
-                <a href="https://digitalinnovation.one/sign-in?redirect=%2F" target="_blank">
-                    <img src="img/colaborador1.png"width="180px"height="90px">
-                </a>
-            </div>
-            <div id="colab">
-                <a href="https://www.udemy.com/" target="_blank">
-                    <img src="img/colaborador.png"width="150px" height="90px">
-                </a>
-            </div>
-            
-        </section>
-        <section id="equipo">
-            <h2>EQUIPO</h2>
-            <p>
-                Contamos con un excelente equipo de profesionales,
-                comprometidos con la excelencia
-            </p>
-            <div>
-                <img src="img/equipo.jpg"class= "img_pat">
-            </div>
-            <div>
-                <img src="img/equipo-1.jpg" class= "img_pat">
-            </div>
-        </section>
-        <section id="contacto">
-            <h2>CONTACTO</h2>
-            <p>
-                Comuniquese con nosotros
-            </p>
-            <div>
-                <img src="img/correo.png" class= "logo"> 
-                <p><a href="mailto:willans@tuyaymia.com">willans@tuyaymia.com</a></p>
-            </div>
-            <div>
-                <img src="img/telefono1.png"class= "logo">
-                <p><a href="tel:59899336132">(598) 9933-6132</a></p>
-            </div>
-            <div>
-                
-            </div>
+                <div class="container-fluid Servicios text-center margin servicios">
+                    <h2>SERVICIOS</h2>
+                      <div class="container">
+                          <div class="row">
+                            <p>
+                               Ofrecemos excelencia en  
+                               desarrollo de paginas web y aplicaciones.</br>
+                               Produccion y edicion de audios y videos publicitarios.
+                            </p>
+                            <div class="col-lg-4"> 
+                                <img src="img/site.jpg" class= "img_pat">
+                            </div>
+                           <div class="col-lg-4">
+                              <img src="img/app.jpg" class= "img_pat">  
+                           </div>
+                           <div class="col-lg-4">
+                              <iframe width="300" height="200" src="https://www.youtube.com/embed/acjrPjyznfI" 
+                              title="YouTube video player" frameborder="3" allow="accelerometer; autoplay; clipboard-write; 
+                              encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                           </div>
+                         </div> 
+                     </div>  
+                </div>  
         </section>
 
-        <footer>
+        <section id="equipo">
+                <div class="container-fluid equipo text-center margin equipo">
+                    <h2>EQUIPO</h2>
+                    <div class="container">
+                          <div class="row">
+                             <p> Todos nuestros clientes se demuestran satisfechos 
+                                 con las soluciones que Desarrollamos</p>
+                            <div class="col-lg-6"> 
+                                <img src="img/equipo-1.jpg"class= "img_pat rounded-circle" widht="400" height="300"> 
+                            </div>
+                            <div class="col-lg-6"> 
+                                <img src="img/equipo.jpg"class= "img_pat rounded-circle" widht="400" height="300"> 
+                            </div>
+                    </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="clientes">
+                <div class="container-fluid clientes text-center margin clientes">
+                    <h2>CLIENTES</h2>
+                    <div class="container">
+                          <div class="row">
+                          <p>
+                                Contamos con un excelente equipo de profesionales,
+                                comprometidos con la excelencia
+                            </p>
+                             <div class="col-lg-6">
+                                <img src="img/cliente1.jpg"class= "img_pat">
+                            </div>
+                             <div class="col-lg-6">
+                                <img src="img/cliente2.jpg" class= "img_pat">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </section>
+
+        <section id="colaboradores">
+                <div class="container-fluid colaboradores text-center margin colaboradores">
+                    <h2>COLABORADORES</h2>
+                    <div class="container">
+                          <div class="row">
+                            <p>
+                                Nuestros colaboradores, nos ayudan a desarrollar 
+                                las mejores soluciones para cada cliente
+                            </p>
+                            <div class="col-lg-6"> 
+                                <a href="https://digitalinnovation.one/sign-in?redirect=%2F" target="_blank">
+                                    <img src="img/colaborador1.png"width="180px"height="90px">
+                                </a>
+                            </div>
+                            <div class="col-lg-6"> 
+                                <a href="https://www.udemy.com/" target="_blank">
+                                    <img src="img/colaborador.png"width="150px" height="90px">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="contacto">
+                <div class="container-fluid contacto text-center margin contacto">
+                    <h2>CONTACTO</h2>
+                    <div class="container">
+                          <div class="row">
+                            <p>
+                                Comuniquese con nosotros
+                            </p>
+                            <div class="col-lg-6">
+                                <img src="img/correo.png" class= "logo"> 
+                                <p><a href="mailto:willans@tuyaymia.com">willans@tuyaymia.com</a></p>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="img/telefono1.png"class= "logo">
+                                <p><a href="tel:59899336132">(598) 9933-6132</a></p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>    
+        </section>
+
+        <footer class="container-fluid text-center bg-footer margin">
         <p>Desarrollado por Willans Junes</p>
         </footer> 
     </body>
