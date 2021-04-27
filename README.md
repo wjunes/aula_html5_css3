@@ -5,4 +5,4 @@ Fue agregado un backgroun en color gradiente-linear, justamente para que las dif
 Se han utilizado recursos css de la biblioteca Bottstrap.
 Fuè necesario buscar y corregir algunos pequeños herrores que se presentaron en la hoja de estilos de bootstrap.
 Falta resolver el tema de superposición de la navbar ya que el "colchon" que deberia generar el padding-top para que esto no sucediera, no ha funcionado.
-estoy trabajando en una solucion y encontrada la misma, seranactualizados los archivos.
+estoy trabajando en una solucion y encontrada la misma, seran actualizados los archivos.
